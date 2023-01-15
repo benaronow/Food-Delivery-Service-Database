@@ -1,21 +1,22 @@
-<h1>Flood It Game Clone</h1>
+<h1>Food Delivery Service Prototype</h1>
 
  ### [Video Demonstration](https://youtu.be/2HvzjrypxU4)
 
 <h2>Description</h2>
-Welcome to TimelyTakeout! Our product will offer a grocery delivery service that combines  
-the best interests of consumers, employees, and store owners alike. TimelyTakeout will
+Our food delivery service product will offer a grocery delivery service that combines  
+the best interests of consumers, employees, and store owners alike. The product will
 allow consumers to select products from a store’s inventory to add to an order, and 
 place said orders using a chosen address and payment method to be carried out by 
-employees. The manager of each store that uses TimelyTakeout will also interact with 
+employees. The manager of each store that uses our product will also interact with 
 the application to ensure that products can be ordered and delivered as efficiently as 
 possible. With this product, we hope to provide a simple yet effective service for 
 virtual grocery shopping that surpasses the many shortcomings of existing services.
 Consumers should be able to easily interact with the application, employees should
 be able to easily carry out orders and manage the money they earn from doing so, 
 and store managers should be easily able to adjust their store’s online inventory.
-
-TimelyTakeout's current implementation contains routes for the consumer persona that
+</br>
+</br>
+The product's current implementation contains routes for the consumer persona that
 currently allow us to get info of all customers from the database ('get'), get info of a 
 particular customer ('get'), view all reviews that have been left ('get'), and enable 
 customers to leave a review of an order ('post'). For the employee persona, the current 

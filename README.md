@@ -37,14 +37,14 @@ database ('get'), their names ('get'), as well as all the products within a cert
 3. Create a file named `db_password.txt` in the `secrets/` folder and put inside of it the password you want to use for the `webapp` user. 
 4. In a terminal or command prompt, navigate to the folder with the `docker-compose.yml` file.  
 5. Build the images with `docker compose build`
-6. Start the containers with `docker compose up`.  To run in detached mode, run `docker compose up -d`. 
-<br />
+6. Start the containers with `docker compose up`.  To run in detached mode, run `docker compose up -d`.
 
 <h2>Languages and Utilities Used</h2>
 
 - <b>Python</b>
 - <b>SQL</b>
 - <b>Flask</b>
+- <b>Appsmith (front-end connection)</b>
 
 <h2>Environments Used</h2>
 

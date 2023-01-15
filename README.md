@@ -29,7 +29,7 @@ database ('get'), their names ('get'), as well as all the products within a cert
 ('get'). 
 
 <h2>How to setup and start the containers</h2>
-**Important** - you need Docker Desktop installed
+<b>Important - you need Docker Desktop installed</b>
 
 1. Clone this repository.  
 2. Create a file named `db_root_password.txt` in the `secrets/` folder and put inside of it the root password for MySQL. 

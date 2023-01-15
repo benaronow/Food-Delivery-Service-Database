@@ -1,5 +1,8 @@
-Product Pitch Link: https://youtu.be/2HvzjrypxU4
+<h1>Flood It Game Clone</h1>
 
+ ### [Video Demonstration](https://youtu.be/2HvzjrypxU4)
+
+<h2>Description</h2>
 Welcome to TimelyTakeout! Our product will offer a grocery delivery service that combines  
 the best interests of consumers, employees, and store owners alike. TimelyTakeout will
 allow consumers to select products from a store’s inventory to add to an order, and 
@@ -25,6 +28,66 @@ their store's inventory ('post'). Finally, we are also able to access all stores
 database ('get'), their names ('get'), as well as all the products within a certain store 
 ('get'). 
 
+## How to setup and start the containers
+**Important** - you need Docker Desktop installed
+
+1. Clone this repository.  
+2. Create a file named `db_root_password.txt` in the `secrets/` folder and put inside of it the root password for MySQL. 
+3. Create a file named `db_password.txt` in the `secrets/` folder and put inside of it the password you want to use for the `webapp` user. 
+4. In a terminal or command prompt, navigate to the folder with the `docker-compose.yml` file.  
+5. Build the images with `docker compose build`
+6. Start the containers with `docker compose up`.  To run in detached mode, run `docker compose up -d`. 
+<br />
+
+<h2>Languages and Utilities Used</h2>
+
+- <b>Python</b>
+- <b>SQL</b>
+- <b>Flask</b>
+
+<h2>Environments Used</h2>
+
+- <b>Pycharm CE</b>
+- <b>DataGrip</b>
+
+<h2>Program walk-through:</h2>
+
+<p align="center">
+Launch the program: <br/>
+<img src="https://imgur.com/UTEr7sX.png" height="80%" width="80%"/>
+<br />
+<img src="https://imgur.com/Uto4exW.png" height="80%" width="80%"/>
+<br />
+<br />
+Click a square adjacent to the top left corner to flood the board with its color:  <br/>
+<img src="https://imgur.com/Yej3Z3i.png" height="80%" width="80%"/>
+<br />
+<br />
+Continue clicking squares adjacent to the flooded portion:  <br/>
+<img src="https://imgur.com/tCuA6eW.png" height="80%" width="80%"/>
+<br />
+<br />
+If you flood the entire board within the allotted number of steps, you win: <br/>
+<img src="https://imgur.com/B21Xj3y.png" height="80%" width="80%"/>
+<br />
+<br />
+Press 'r' to restart the game:  <br/>
+<img src="https://imgur.com/xbqliUS.png" height="80%" width="80%"/>
+<br />
+<br />
+Failing to flood the entire board within the allotted number of steps results in a loss:  <br/>
+<img src="https://imgur.com/GGQwSsn.png" height="80%" width="80%"/>
+</p>
+
+<!--
+ ```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+--!>
 
 View of stores:
 <img width="956" alt="image" src="https://user-images.githubusercontent.com/113547817/207407411-ff5cc3e0-6a9b-4dc2-847c-0e14bf1491af.png">
@@ -37,14 +100,3 @@ View of employee payments:
 
 View of partnership application:
 <img width="944" alt="image" src="https://user-images.githubusercontent.com/113547817/207407869-5c0067a0-848c-4a06-86dc-cd72372836e4.png">
-
-
-## How to setup and start the containers
-**Important** - you need Docker Desktop installed
-
-1. Clone this repository.  
-1. Create a file named `db_root_password.txt` in the `secrets/` folder and put inside of it the root password for MySQL. 
-1. Create a file named `db_password.txt` in the `secrets/` folder and put inside of it the password you want to use for the `webapp` user. 
-1. In a terminal or command prompt, navigate to the folder with the `docker-compose.yml` file.  
-1. Build the images with `docker compose build`
-1. Start the containers with `docker compose up`.  To run in detached mode, run `docker compose up -d`. 

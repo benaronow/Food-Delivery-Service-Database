@@ -53,30 +53,20 @@ database ('get'), their names ('get'), as well as all the products within a cert
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the program: <br/>
-<img src="https://imgur.com/UTEr7sX.png" height="80%" width="80%"/>
-<br />
-<img src="https://imgur.com/Uto4exW.png" height="80%" width="80%"/>
+View of stores: <br/>
+<img width="956" alt="image" src="https://user-images.githubusercontent.com/113547817/207407411-ff5cc3e0-6a9b-4dc2-847c-0e14bf1491af.png">
 <br />
 <br />
-Click a square adjacent to the top left corner to flood the board with its color:  <br/>
-<img src="https://imgur.com/Yej3Z3i.png" height="80%" width="80%"/>
+View of reviews:  <br/>
+<img width="949" alt="image" src="https://user-images.githubusercontent.com/113547817/207407528-0782de5b-96e2-4402-a338-b4f562175061.png">
 <br />
 <br />
-Continue clicking squares adjacent to the flooded portion:  <br/>
-<img src="https://imgur.com/tCuA6eW.png" height="80%" width="80%"/>
+View of employee payments:  <br/>
+<img width="943" alt="image" src="https://user-images.githubusercontent.com/113547817/207407756-7a882c43-c833-4f91-881a-641e9b3efee4.png">
 <br />
 <br />
-If you flood the entire board within the allotted number of steps, you win: <br/>
-<img src="https://imgur.com/B21Xj3y.png" height="80%" width="80%"/>
-<br />
-<br />
-Press 'r' to restart the game:  <br/>
-<img src="https://imgur.com/xbqliUS.png" height="80%" width="80%"/>
-<br />
-<br />
-Failing to flood the entire board within the allotted number of steps results in a loss:  <br/>
-<img src="https://imgur.com/GGQwSsn.png" height="80%" width="80%"/>
+View of partnership application: <br/>
+<img width="944" alt="image" src="https://user-images.githubusercontent.com/113547817/207407869-5c0067a0-848c-4a06-86dc-cd72372836e4.png">
 </p>
 
 <!--
@@ -88,15 +78,3 @@ Failing to flood the entire board within the allotted number of steps results in
 @@ text in purple (and bold)@@
 ```
 --!>
-
-View of stores:
-<img width="956" alt="image" src="https://user-images.githubusercontent.com/113547817/207407411-ff5cc3e0-6a9b-4dc2-847c-0e14bf1491af.png">
-
-View of reviews:
-<img width="949" alt="image" src="https://user-images.githubusercontent.com/113547817/207407528-0782de5b-96e2-4402-a338-b4f562175061.png">
-
-View of employee payments:
-<img width="943" alt="image" src="https://user-images.githubusercontent.com/113547817/207407756-7a882c43-c833-4f91-881a-641e9b3efee4.png">
-
-View of partnership application:
-<img width="944" alt="image" src="https://user-images.githubusercontent.com/113547817/207407869-5c0067a0-848c-4a06-86dc-cd72372836e4.png">

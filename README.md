@@ -44,12 +44,12 @@ database ('get'), their names ('get'), as well as all the products within a cert
 - <b>Python</b>
 - <b>SQL</b>
 - <b>Flask</b>
-- <b>Appsmith (front-end connection)</b>
 
 <h2>Environments Used</h2>
 
 - <b>Pycharm CE</b>
 - <b>DataGrip</b>
+- <b>Appsmith (front-end connection)</b>
 
 <h2>Program walk-through:</h2>
 
